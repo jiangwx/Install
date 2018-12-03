@@ -1,9 +1,12 @@
-cd /media/lulugay/Document/Library/CUDA/
-sudo dpkg -i cuda-repo-ubuntu1604-9-1-local_9.1.85-1_amd64.deb
-sudo apt-key add /var/cuda-repo-9-1-local/7fa2af80.pub
-sudo apt-get update
-sudo apt-get install cuda -y
-sudo ln -s /usr/local/cuda-9.1 /usr/local/cuda
+cd /media/p520/Documen/NVIDIA/
+sudo bash cuda_9.1.85_387.26_linux.run
+sudo bash cuda_9.1.85.1_linux.run
+sudo bash cuda_9.1.85.2_linux.run
+sudo bash cuda_9.1.85.3_linux.run
+sudo dpkg -i libcudnn7_7.0.5.15-1+cuda9.1_amd64.deb
+sudo dpkg -i libcudnn7-dev_7.0.5.15-1+cuda9.1_amd64.deb
+sudo dpkg -i libcudnn7-doc_7.0.5.15-1+cuda9.1_amd64.deb
+
 
 
 
