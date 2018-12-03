@@ -1,0 +1,7 @@
+deb https://mirrors.geekpie.club/ubuntu/ xenial main restricted universe multiverse
+# deb-src https://mirrors.geekpie.club/ubuntu/ xenial main restricted universe multiverse
+deb https://mirrors.geekpie.club/ubuntu/ xenial-updates main restricted universe multiverse
+# deb-src https://mirrors.geekpie.club/ubuntu/ xenial-updates main restricted universe multiverse
+deb https://mirrors.geekpie.club/ubuntu/ xenial-backports main restricted universe multiverse
+# deb-src https://mirrors.geekpie.club/ubuntu/ xenial-backports main restricted universe multiverse
+deb https://mirrors.geekpie.club/ubuntu/ xenial-security main restricted universe multiverse
