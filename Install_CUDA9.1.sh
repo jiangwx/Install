@@ -1,4 +1,4 @@
-cd /media/p520/Documen/NVIDIA/
+cd /media/p520/Document/NVIDIA/
 sudo bash cuda_9.1.85_387.26_linux.run
 sudo bash cuda_9.1.85.1_linux.run
 sudo bash cuda_9.1.85.2_linux.run
