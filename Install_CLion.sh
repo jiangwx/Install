@@ -1,6 +1,6 @@
-sudo cp /media/lulugay/Document/Software/CLion-2018.2.4.tar.gz /opt
+sudo cp /media/$(whoami)/Document/APP/CLion* /opt/CLion.tar.gz
 cd /opt
-sudo tar -zxvf CLion-2018.2.4.tar.gz
-sudo rm CLion-2018.2.4.tar.gz
-cd /opt/clion-2018.2.4/bin
+sudo tar -zxvf CLion.tar.gz
+sudo rm CLion.tar.gz
+cd /opt/clion*/bin
 ./clion.sh
