@@ -18,6 +18,7 @@ sudo apt-get remove libsunpinyin3v5:amd64 --purge -y
 sudo apt-get remove fcitx-pinyin --purge -y
 sudo apt-get remove fcitx-module-cloudpinyin:amd64 --purge -y
 
+sudo apt install vim -y
 sudo apt-get install python-pip python-dev build-essential -y
 sudo apt-get install libboost-all-dev -y
 sudo apt-get install libgoogle-glog-dev -y
@@ -37,6 +38,7 @@ sudo apt-get update
 sudo apt-get install notepadqq -y
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y
 
+sudo apt install curl
 sudo apt-get install git -y
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -44,4 +46,4 @@ sudo apt-key fingerprint 0EBFCD88
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt update
 sudo apt install docker-ce -y
-sudo apt install vim -y
+git clone https://github.com/xianyi/OpenBLAS.git && cd OpenBLAS && make OpenMP=1 && sudo make install && cd .. && sudo rm -r OpenBLAS
