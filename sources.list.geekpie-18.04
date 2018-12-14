@@ -1,0 +1,7 @@
+deb https://mirrors.geekpie.club/ubuntu/ bionic main restricted universe multiverse
+# deb-src https://mirrors.geekpie.club/ubuntu/ bionic main restricted universe multiverse
+deb https://mirrors.geekpie.club/ubuntu/ bionic-updates main restricted universe multiverse
+# deb-src https://mirrors.geekpie.club/ubuntu/ bionic-updates main restricted universe multiverse
+deb https://mirrors.geekpie.club/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src https://mirrors.geekpie.club/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.geekpie.club/ubuntu/ bionic-security main restricted universe multiverse
