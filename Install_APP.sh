@@ -8,7 +8,7 @@ sudo apt-get remove onboard deja-dup -y
 sudo apt-get install htop -y
 sudo apt-get install ssh -y
 sudo apt-get install gparted -y
-
+sudo apt install net-tools -y
 
 sudo apt-get remove sunpinyin-data --purge -y
 sudo apt-get remove fcitx-table-wubi --purge -y
