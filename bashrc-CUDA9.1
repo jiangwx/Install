@@ -129,6 +129,7 @@ alias digits='cd ~/Document/digits; ./digits-devserver'
 alias nv='watch -n 1 nvidia-smi'
 alias pull='git pull --rebase origin master'
 alias push='git push -u origin master'
+alias dl='sudo docker run -it -v /home/sars:/mnt -v /media/sars/Document:/media/lulugay/Document -v /media/sars/WorkSpace:/media/lulugay/WorkSpace -p 5000:5000 -p 8888:8888 --shm-size 32G --user=lulugay --runtime nvidia --rm sars:dl'
 export SYSROOT_arm64=~/WorkSpace/SYSROOT_arm64
 export SYSROOT_armhf=~/WorkSpace/SYSROOT_armhf
 export PATH=/usr/local/cuda-9.1/bin${PATH:+:${PATH}}
