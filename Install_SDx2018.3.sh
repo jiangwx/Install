@@ -1,3 +1,5 @@
+echo "alias s8.3='source /opt/Xilinx/SDx/2018.3/settings64.sh; sdx'" >> ~/.bashrc
+echo "alias v8.3='source /opt/Xilinx/Vivado/2018.3/settings64.sh'" >> ~/.bashrc
 sudo rm /etc/default/grub
 sudo cp ./grub /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
