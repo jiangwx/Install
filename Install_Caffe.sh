@@ -1,3 +1,4 @@
+sudo apt install git python-pip make gcc
 git clone https://github.com/xianyi/OpenBLAS.git && cd OpenBLAS && make OpenMP=1 && sudo make install && cd .. && sudo rm -r OpenBLAS
 git clone https://github.com/NVIDIA/nccl.git && cd nccl && sudo make install -j16 && cd .. && sudo rm -r nccl
 git clone https://github.com/NVIDIA/caffe
@@ -11,7 +12,7 @@ sudo apt-get install libboost-all-dev -y
 sudo apt-get install libgoogle-glog-dev -y
 sudo apt-get install libprotobuf-dev protobuf-compiler -y
 sudo apt-get install python-tk -y
-sudo apt-get install libturbojpeg -y
+sudo apt-get install libturbojpeg-dev -y
 sudo ln -s /usr/lib/x86_64-linux-gnu/libturbojpeg.so.0.1.0 /usr/lib/x86_64-linux-gnu/libturbojpeg.so
 cd caffe
 sudo mkdir build
