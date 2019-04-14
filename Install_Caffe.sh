@@ -1,4 +1,4 @@
-sudo apt install git python-pip make gcc vim
+sudo apt install git python-pip make gcc vim -y
 git clone https://github.com/xianyi/OpenBLAS.git && cd OpenBLAS && make OpenMP=1 && sudo make install && cd .. && sudo rm -r OpenBLAS
 git clone https://github.com/NVIDIA/nccl.git && cd nccl && sudo make install -j16 && cd .. && sudo rm -r nccl
 git clone https://github.com/jiangwx/Caffe caffe
