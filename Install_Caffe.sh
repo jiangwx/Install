@@ -1,8 +1,7 @@
-sudo apt install git python-pip make gcc
+sudo apt install git python-pip make gcc vim
 git clone https://github.com/xianyi/OpenBLAS.git && cd OpenBLAS && make OpenMP=1 && sudo make install && cd .. && sudo rm -r OpenBLAS
 git clone https://github.com/NVIDIA/nccl.git && cd nccl && sudo make install -j16 && cd .. && sudo rm -r nccl
-git clone https://github.com/NVIDIA/caffe
-
+git clone https://github.com/jiangwx/Caffe caffe
 sudo pip install -r caffe/python/requirements.txt
 cat caffe/python/requirements.txt | xargs -n1 sudo pip install
 sudo apt-get install --no-install-recommends git graphviz python-dev python-flask python-flaskext.wtf python-gevent python-h5py python-numpy python-pil python-pip python-scipy python-tk -y
